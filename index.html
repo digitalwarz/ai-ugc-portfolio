@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AI UGC Ad Studio — Portfolio</title>
+<style>
+  :root {
+    --bg: #0b0d0c;
+    --panel: #141716;
+    --volt: #c8f542;
+    --text: #e8ece9;
+    --muted: #8a938c;
+    --line: #232826;
+  }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body {
+    background: var(--bg);
+    color: var(--text);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    line-height: 1.6;
+    -webkit-font-smoothing: antialiased;
+  }
+  .wrap { max-width: 1080px; margin: 0 auto; padding: 48px 24px 80px; }
+  header { margin-bottom: 40px; }
+  .kicker {
+    color: var(--volt);
+    font-size: 13px;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin-bottom: 12px;
+  }
+  h1 { font-size: 40px; font-weight: 700; letter-spacing: -0.02em; line-height: 1.1; }
+  h1 .accent { color: var(--volt); }
+  .sub { color: var(--muted); font-size: 18px; margin-top: 14px; max-width: 640px; }
+  .stats { display: flex; gap: 32px; margin-top: 28px; flex-wrap: wrap; }
+  .stat .num { font-size: 28px; font-weight: 700; color: var(--volt); }
+  .stat .lbl { font-size: 13px; color: var(--muted); }
+  section { margin-top: 48px; }
+  h2 { font-size: 22px; font-weight: 600; margin-bottom: 6px; }
+  .sec-sub { color: var(--muted); font-size: 14px; margin-bottom: 20px; }
+  .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 20px; }
+  .card {
+    background: var(--panel);
+    border: 1px solid var(--line);
+    border-radius: 12px;
+    overflow: hidden;
+    transition: transform .15s ease, border-color .15s ease;
+  }
+  .card:hover { transform: translateY(-2px); border-color: var(--volt); }
+  .card video { width: 100%; display: block; background: #000; aspect-ratio: 9/16; object-fit: cover; }
+  .card .body { padding: 16px; }
+  .card h3 { font-size: 16px; font-weight: 600; margin-bottom: 4px; }
+  .card .tag { display: inline-block; font-size: 11px; color: var(--volt); background: rgba(200,245,66,0.08); border: 1px solid rgba(200,245,66,0.25); padding: 2px 8px; border-radius: 20px; margin-bottom: 8px; }
+  .card p { font-size: 13px; color: var(--muted); }
+  .cta {
+    margin-top: 48px;
+    background: var(--panel);
+    border: 1px solid var(--line);
+    border-radius: 12px;
+    padding: 28px;
+  }
+  .cta h2 { margin-bottom: 8px; }
+  .cta p { color: var(--muted); font-size: 15px; margin-bottom: 16px; }
+  .cta .row { display: flex; gap: 12px; flex-wrap: wrap; }
+  .btn {
+    display: inline-block;
+    background: var(--volt);
+    color: #0b0d0c;
+    font-weight: 700;
+    padding: 12px 22px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-size: 15px;
+  }
+  .btn.ghost { background: transparent; color: var(--text); border: 1px solid var(--line); }
+  footer { margin-top: 48px; color: var(--muted); font-size: 12px; border-top: 1px solid var(--line); padding-top: 20px; }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <div class="kicker">AI UGC Ad Studio</div>
+    <h1>Conversion-ready ads,<br>produced in <span class="accent">48 hours</span>.</h1>
+    <p class="sub">AI-generated UGC video ads for DTC skincare, supplement, and grooming brands. Vertical 9:16, hook-first, built to test on Meta &amp; TikTok — at a fraction of traditional UGC cost.</p>
+    <div class="stats">
+      <div class="stat"><div class="num">48h</div><div class="lbl">first-draft turnaround</div></div>
+      <div class="stat"><div class="num">3</div><div class="lbl">niches covered</div></div>
+      <div class="stat"><div class="num">$250–500</div><div class="lbl">per ad, ~98% margin</div></div>
+      <div class="stat"><div class="num">9:16</div><div class="lbl">vertical, platform-native</div></div>
+    </div>
+  </header>
+
+  <section>
+    <h2>Demo reel</h2>
+    <p class="sec-sub">30 seconds across all three niches — skincare, supplement, men's grooming.</p>
+    <div class="card" style="max-width: 420px;">
+      <video controls preload="metadata" poster="">
+        <source src="demo-reel-sendable.mp4" type="video/mp4">
+      </video>
+      <div class="body">
+        <h3>Full demo reel</h3>
+        <span class="tag">30s · 720×1280</span>
+        <p>Range of production across vertical UGC formats.</p>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Niche samples</h2>
+    <p class="sec-sub">5-second hook-first ads, one per target vertical.</p>
+    <div class="grid">
+      <div class="card">
+        <video controls preload="metadata">
+          <source src="ugc-skincare-serum-demo-ad-hooked.mp4" type="video/mp4">
+        </video>
+        <div class="body">
+          <h3>Skincare — serum</h3>
+          <span class="tag">5s · 768×1344 · hook on-screen</span>
+          <p>Glow/clinical angle for a serum launch.</p>
+        </div>
+      </div>
+      <div class="card">
+        <video controls preload="metadata">
+          <source src="ugc-supplement-demo-ad-hooked.mp4" type="video/mp4">
+        </video>
+        <div class="body">
+          <h3>Supplement — daily stack</h3>
+          <span class="tag">5s · 768×1344 · hook on-screen</span>
+          <p>Benefit-led hook for a supplement brand.</p>
+        </div>
+      </div>
+      <div class="card">
+        <video controls preload="metadata">
+          <source src="ugc-mens-grooming-demo-ad-hooked.mp4" type="video/mp4">
+        </video>
+        <div class="body">
+          <h3>Men's grooming</h3>
+          <span class="tag">5s · 704×1280 · hook on-screen</span>
+          <p>Anti-trope, single sharp angle.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="cta">
+    <h2>Want 3 AI-UGC variants of your winning pattern?</h2>
+    <p>Send your best-performing ad or product page. I'll return a free 3-variant creative plan within 24 hours — no obligation.</p>
+    <div class="row">
+      <a class="btn" href="mailto:taahir@foreverlawn.co.za?subject=AI%20UGC%20Ad%20Inquiry">Request free plan</a>
+      <a class="btn ghost" href="mailto:taahir@foreverlawn.co.za">Email directly</a>
+    </div>
+  </div>
+
+  <footer>
+    AI UGC Ad Studio · Cape Town, South Africa (SAST) · Vertical video ads for DTC brands · Full commercial rights on all deliverables.
+  </footer>
+</div>
+</body>
+</html>
