@@ -1,6 +1,7 @@
 # Portfolio — Deploy Guide
 
-> The portfolio is a self-contained static site in this folder: `index.html` + 4 videos. It turns "attach 4 files" into "here's one link" — the single URL to drop into every Upwork proposal and cold email.
+> **✅ DEPLOYED 6 Sept 2026 — LIVE at https://digitalwarz.github.io/ai-ugc-portfolio/**
+> The portfolio is a self-contained static site: `index.html` + 4 videos. It turns "attach 4 files" into "here's one link" — the single URL to drop into every Upwork proposal and cold email.
 
 ## What's here
 | File | Purpose |
